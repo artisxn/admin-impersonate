@@ -1,0 +1,42 @@
+{
+    "name": "codicastudio/admin-impersonate",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "homepage": "https://github.com/codicastudio/admin-impersonate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "codicastudiodev@gmail.com",
+            "homepage": "https://codicastudio.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4.8",
+        "codicastudio/impersonate": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "codicastudio\\NovaImpersonate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codicastudio\\NovaImpersonate\\ToolServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
