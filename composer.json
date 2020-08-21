@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.4.8",
+        "php": "^7.4.0",
         "codicastudio/impersonate": "^1.0.0"
     },
     "autoload": {
